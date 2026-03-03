@@ -1,7 +1,7 @@
 # Evolutionary Agent Project
 
 ## Overview
-This project implements an evolutionary agent framework inspired by OpenEvolve and GigaEvo. The system evolves solutions to structured problems using mutation, selection, and evaluation modules.
+This project implements an evolutionary agent framework inspired by AlphaEvolve. The system evolves solutions to structured problems using mutation, selection, and evaluation modules.
 
 ## Requirements
 - Python 3.10+
