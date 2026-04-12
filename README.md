@@ -129,15 +129,8 @@ sentence-transformers>=3.0.0
    pip install -r requirements.txt
    ```
 
-4. **Set up your Gemini API key** (choose one method):
-
-   - **Option A — Streamlit UI:** Paste your API key in the sidebar when the app loads.
-   - **Option B — Environment variable:**
-     ```bash
-     cp .env.example .env
-     # Edit .env and add: GEMINI_API_KEY=your_key_here
-     ```
-
+4. **Set up your Gemini API key** 
+   - **Streamlit UI:** Paste your API key in the sidebar when the app loads.
 ---
 
 ## ▶️ Running the Application
