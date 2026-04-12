@@ -136,7 +136,7 @@ sentence-transformers>=3.0.0
 ## ▶️ Running the Application
 
 ```bash
-streamlit run app14.py
+streamlit run Evolve.py
 ```
 
 The app will open at **http://localhost:8501** in your browser.
@@ -193,27 +193,6 @@ Fitness = correctness_score (0–60) + efficiency_score (0–40)
 efficiency_score = max(0, 40 × (1 − ops / 54))
 ```
 Naive = 54 ops | Strassen ≈ 51 | Target ≤ 40 for maximum efficiency score.
-
----
-
-## 🧪 Per-Member Experimental Configurations
-
-Each group member tests one distinct parameter configuration. Results (screenshots + CSV) are stored in `data/results/<member>/`.
-
-| Member | Strategy | Generations | Fitness Weights | Notes |
-|--------|----------|-------------|-----------------|-------|
-| Siddhartha | LLM-Guided | 10 | w1=0.5, w2=0.3, w3=0.2 | Baseline LLM performance |
-| Suraj | LLM-Guided | 5 | w1=0.6, w2=0.2, w3=0.2 | Score-heavy weights |
-| Varshitha | Random Mutation | 10 | w1=0.4, w2=0.4, w3=0.2 | Survival-heavy weights |
-| Kevin | No Evolution | 3 | w1=0.5, w2=0.3, w3=0.2 | Single-shot LLM baseline |
-
-**Required data per member:**
-- ✅ Runtime performance (seconds per generation)
-- ✅ Steps per generation (candidate evaluation count)
-- ✅ Generation count with fitness scores at each step
-- ✅ Comparative plots (No Evolution vs Random vs LLM-Guided)
-- ✅ Screenshots of the UI at key moments
-- ✅ Exported `<member>_data.csv`
 
 ---
 
@@ -275,24 +254,3 @@ Each group member tests one distinct parameter configuration. Results (screensho
 9. N. Reimers & I. Gurevych, "Sentence-BERT," *arXiv*:1908.10084, 2019.
 10. Python Software Foundation. *ast — Abstract Syntax Trees*. https://docs.python.org/3/library/ast.html
 
----
-
-## 📜 Submission Instructions
-
-### Round 1 — Due 03/03/2026
-- [ ] Submit `groupno__report.docx` on RaiderCanvas (max 3 pages, 10pt font, 1-inch margins, single-spaced)
-- [ ] Include system framework description (3–4 paragraphs)
-- [ ] Include contribution table (member names + bulleted accomplishments)
-- [ ] Submit GitHub repository link
-
-### Round 2 — Final Submission
-- [ ] All four members have run their assigned configuration and committed results to `data/results/<member>/`
-- [ ] Each member's folder contains: screenshots, `<member>_data.csv`, and a brief written analysis
-- [ ] Comparative plots generated and committed to `docs/`
-- [ ] Final `app14.py` is clean, commented, and runnable
-- [ ] This README is complete and accurate
-- [ ] Video walkthrough linked above
-
----
-
-*CS5381 Analysis of Algorithms | Texas Tech University | Spring 2026*
