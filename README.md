@@ -237,7 +237,7 @@ Naive = 54 ops | Strassen ≈ 51 | Target ≤ 40 for maximum efficiency score.
 
 ## 📹 Video Walkthrough
 
-> 📎 https://texastechuniversity-my.sharepoint.com/:v:/g/personal/sibollam_ttu_edu/IQB2fDd7HyXWQpoc7FUZQ66cAV4yjenzCppLdULbHDwMgxE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0AZpZX
+> 📎 https:/drive.google.com/file/d/1kJJ-5m57xDBkG3opdGViKpUv8GwnWC3A/view?usp=sharing
 
 ---
 
