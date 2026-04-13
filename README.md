@@ -230,7 +230,7 @@ Naive = 54 ops | Strassen ≈ 51 | Target ≤ 40 for maximum efficiency score.
 - **Increase generations** (8–15) for more visible fitness improvement trends
 - **Use LLM-Guided strategy** for the most significant per-generation improvements
 - **Enable FAISS** for large runs (10+ generations) — significantly reduces redundant evaluations
-- **Export data after each run** — the CSV export in Tab 4 is required for Round 2 submission
+- **Export data after each run** — the CSV export in Tab 4
 - For the Matrix bonus task, start with the default naive code and observe convergence toward Strassen-like solutions
 
 ---
