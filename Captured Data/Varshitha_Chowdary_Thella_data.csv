@@ -1,0 +1,16 @@
+﻿Gen,Strategy,Fitness,Score,Survival,Cost,Runtime_s,Steps,Operation
+1,No Evolution (Single-Shot LLM),21.54,2.1,52.8,52.8,42.955,9,
+1,Random,21.54,2.1,52.8,52.8,42.955,9,AST: constant 2 -> 3
+1,LLM-Guided,21.54,2.1,52.8,52.8,42.955,9,Gen 1: flee radius 3 + nearest food
+2,No Evolution (Single-Shot LLM),21.54,0,0,0,42.405,9,
+2,Random,47.5,37.5,100,100,42.405,9,Template substitution from predefined library
+2,LLM-Guided,21.54,0,0,0,42.405,9,
+3,No Evolution (Single-Shot LLM),21.54,0,0,0,41.424,9,
+3,Random,47.5,0,0,0,41.424,9,
+3,LLM-Guided,21.54,0,0,0,41.424,9,
+4,No Evolution (Single-Shot LLM),21.54,0,0,0,43.466,9,
+4,Random,47.5,0,0,0,43.466,9,
+4,LLM-Guided,47.5,37.5,100,100,43.466,9,Gen 4: safety-first move scoring 
+5,No Evolution (Single-Shot LLM),21.54,0,0,0,48.368,9,
+5,Random,47.5,0,0,0,48.368,9,
+5,LLM-Guided,47.5,0,0,0,48.368,9,
