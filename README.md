@@ -64,7 +64,7 @@ The system evaluates each candidate using a domain-specific fitness function and
 
 | Member | Role & Contributions |
 |--------|---------------------|
-| **Siddhartha Bollam** | System architecture · Core evolutionary engine · Fitness computation module · LLM integration & caching · Backend–UI communication · Repo management |
+| **Siddhartha Bollam** | System architecture · Core evolutionary engine · Fitness computation module · LLM integration & caching · Backend–UI communication · Repository management |
 | **Suraj Pandey** | LLM prompt engineering · LLM-guided & random mutation strategies · Template-based refinement modules · LLM API integration & validation · Prompt optimization |
 | **Varshitha Chowdary Thella** | Automated evaluation framework · Performance logging & data collection · Selection utilities · Experimental datasets · Performance validation |
 | **Kevin Sanchez** | UI design & implementation · Fitness visualization components · Comparative analysis plots · UI–backend configuration controls · Reporting & result export |
